@@ -1,1 +1,5 @@
-module.exports = { runtimeCompiler: true, }
+module.exports = { 
+  runtimeCompiler: true, 
+  publicPath: '/honeystrap-ohanashi/',
+  outputDir: 'docs'
+}
