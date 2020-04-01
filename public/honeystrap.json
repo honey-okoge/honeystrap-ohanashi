@@ -1,0 +1,54 @@
+[
+  {
+    "name": "周防パトラ",
+    "yomi": "すおうパトラ",
+    "id": "patra",
+    "type": "honeystrap",
+    "images": [
+      "images/patora/1.png",
+      "images/patora/2.png",
+      "images/patora/3.png",
+      "images/patora/4.png",
+      "images/patora/5.png"
+    ]
+  },
+  {
+    "name": "西園寺メアリ",
+    "yomi": "さいおんじめあり",
+    "id": "mary",
+    "type": "honeystrap",
+    "images": [
+      "images/mary/1.png",
+      "images/mary/2.png",
+      "images/mary/3.png",
+      "images/mary/4.png",
+      "images/mary/5.png"
+    ]
+  },
+  {
+    "name": "島村シャルロット",
+    "yomi": "しまむらしゃるろっと",
+    "id": "charlotte",
+    "type": "honeystrap",
+    "images": [
+      "images/sharlotte/1.png",
+      "images/sharlotte/2.png",
+      "images/sharlotte/3.png",
+      "images/sharlotte/4.png",
+      "images/sharlotte/5.png"
+    ]
+  },
+  {
+    "name": "堰代ミコ",
+    "yomi": "せきしろみこ",
+    "id": "mico",
+    "type": "honeystrap",
+    "images": [
+      "images/mico/1.png",
+      "images/mico/2.png",
+      "images/mico/3.png",
+      "images/mico/4.png",
+      "images/mico/5.png"
+    ]
+  }
+]
