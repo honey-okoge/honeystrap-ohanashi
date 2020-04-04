@@ -28,7 +28,7 @@ export default {
   },
   created() {
     store.on('idols-updated', (idols) => {
-        store.selectIdol(idols.find((idol) => idol.id === 'chizuru'));
+        store.selectIdol(idols.find((idol) => idol.id === 'patra'));
     });
     store.fetchIdols();
   }

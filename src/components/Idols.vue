@@ -5,8 +5,8 @@
      <div class="form-inline">
        <span>
          <label><input name=type type=radio v-model="search.type" value="">All</label>
-         <label><input name=type type=radio v-model="search.type" value="vo">Vo</label>
-         <label><input name=type type=radio v-model="search.type" value="da">Da</label>
+         <label><input name=type type=radio v-model="search.type" value="honeystrap">HoneyStrap</label>
+         <label><input name=type type=radio v-model="search.type" value="SugarLilic">SugarLilic</label>
          <label><input name=type type=radio v-model="search.type" value="vi">Vi</label>
          <label><input name=type type=radio v-model="search.type" value="ex">Ex</label>
        </span>

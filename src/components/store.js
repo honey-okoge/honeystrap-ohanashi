@@ -14,7 +14,7 @@ class Store extends EventEmitter {
   }
 
   fetchIdols() {
-    getJson('millionstars.json')
+    getJson('honeystrap.json')
     .then((idols) => {
       this.data.idols = idols;
       this.emit('idols-updated', clone(idols));
@@ -59,14 +59,16 @@ class Store extends EventEmitter {
 export default new Store();
 
 function clone(x) {
-  if (typeof x !== 'object' || x === null) { return x; }
-  if (Array.isArray(x)) { return x.slice(); }
+  console.log(x);
+  if (typeof x !== 'object' || x === null) {   console.log('a');return x; }
+  if (Array.isArray(x)) {   console.log('b');return x.slice(); }
+  console.log('c');
   return Object.assign({}, x);
 }
 
 function getJson() {
   let xhr = new XMLHttpRequest();
-  xhr.open('GET', './millionstars.json');
+  xhr.open('GET', './honeystrap.json');
   xhr.responseType = 'json';
   xhr.send();
   return new Promise((resolve, reject) => {

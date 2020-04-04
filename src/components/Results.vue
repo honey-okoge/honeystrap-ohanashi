@@ -99,7 +99,7 @@ Vue.component('og-canvas', {
         function drawImage(url, x, y) {
             let i = new Image();
             i.src = url;
-            i.onload = () => ctx.drawImage(i, x, y);
+            i.onload = () => ctx.drawImage(i, x, y,152,152);
         }
       });
     }
