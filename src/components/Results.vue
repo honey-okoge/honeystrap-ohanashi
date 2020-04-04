@@ -15,8 +15,12 @@
           保存できないので画像だけを表示してみる
         </button>
       </p>
+      <p>
+        <a href="https://twitter.com/intent/tweet?button_hashtag=ハニストおはなし&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #ハニストおはなし</a>
+        <!-- <button @click="twitterShare">ツイッターでシェアする</button> -->
+      </p>
     </section>
-  </section>
+  </section>    
 </template>
 <script>
 import Vue from 'vue';
@@ -35,6 +39,12 @@ export default {
     open(event) {
       event.preventDefault();
       window.open(this.$refs.canvas.getUrl());
+    },
+    twitterShare(){
+        //シェアする画面を設定
+        var shareURL = 'https://twitter.com/intent/tweet?text=' + "テストツイート" + '&url=' + this.$refs.canvas.getUrl();
+        //シェア用の画面へ移行
+        location.href = shareURL
     }
   }
 }
