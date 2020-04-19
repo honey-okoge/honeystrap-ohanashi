@@ -1,6 +1,6 @@
 <template id=idols-template>
    <section>
-     <h2>アイドルを選ぶ</h2>
+     <h2>メンバを選ぶ</h2>
 
      <div class="form-inline">
        <span>
