@@ -14,7 +14,7 @@ class Store extends EventEmitter {
   }
 
   fetchIdols() {
-    getJson('honeystrap.json')
+    getJson('774.json')
     .then((idols) => {
       this.data.idols = idols;
       this.emit('idols-updated', clone(idols));
@@ -66,9 +66,9 @@ function clone(x) {
   return Object.assign({}, x);
 }
 
-function getJson() {
+function getJson(x) {
   let xhr = new XMLHttpRequest();
-  xhr.open('GET', './honeystrap.json');
+  xhr.open('GET', x);
   xhr.responseType = 'json';
   xhr.send();
   return new Promise((resolve, reject) => {

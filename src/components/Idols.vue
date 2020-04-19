@@ -6,7 +6,7 @@
        <span>
          <label><input name=type type=radio v-model="search.type" value="">All</label>
          <label><input name=type type=radio v-model="search.type" value="honeystrap">HoneyStrap</label>
-         <label><input name=type type=radio v-model="search.type" value="SugarLilic">SugarLilic</label>
+         <label><input name=type type=radio v-model="search.type" value="sugarlyric">SugarLyric</label>
        </span>
        <label>
          <input type=search size=20 v-model="searchText" placeholder="すおうぱとら" class="form-control">
