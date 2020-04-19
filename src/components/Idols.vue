@@ -7,11 +7,9 @@
          <label><input name=type type=radio v-model="search.type" value="">All</label>
          <label><input name=type type=radio v-model="search.type" value="honeystrap">HoneyStrap</label>
          <label><input name=type type=radio v-model="search.type" value="SugarLilic">SugarLilic</label>
-         <label><input name=type type=radio v-model="search.type" value="vi">Vi</label>
-         <label><input name=type type=radio v-model="search.type" value="ex">Ex</label>
        </span>
        <label>
-         <input type=search size=20 v-model="searchText" placeholder="にかいどう" class="form-control">
+         <input type=search size=20 v-model="searchText" placeholder="すおうぱとら" class="form-control">
        </label>
     </div>
     <ul class="nav nav-pills">

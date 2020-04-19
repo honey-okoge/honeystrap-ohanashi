@@ -11,12 +11,16 @@
       長押しや右クリックで画像を保存してお楽しみください。
       </p>
       <p>
+        <!--
         <button @click="open" class="btn btn-default">
           保存できないので画像だけを表示してみる
         </button>
+        -->
       </p>
       <p>
+        <!--
         <a href="https://twitter.com/intent/tweet?button_hashtag=ハニストおはなし&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #ハニストおはなし</a>
+        -->
         <!-- <button @click="twitterShare">ツイッターでシェアする</button> -->
       </p>
     </section>
