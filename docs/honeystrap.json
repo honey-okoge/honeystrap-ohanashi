@@ -12,40 +12,7 @@
       "images/patra/slide5.PNG",
       "images/patra/slide6.PNG",
       "images/patra/slide7.PNG",
-      "images/patra/slide8.PNG",
-      "images/patra/slide9.PNG",
-      "images/patra/slide10.PNG",
-      "images/patra/slide11.PNG",
-      "images/patra/slide12.PNG",
-      "images/patra/slide13.PNG",
-      "images/patra/slide14.PNG",
-      "images/patra/slide15.PNG",
-      "images/patra/slide16.PNG",
-      "images/patra/slide17.PNG",
-      "images/patra/slide18.PNG",
-      "images/patra/slide19.PNG",
-      "images/patra/slide20.PNG",
-      "images/patra/slide21.PNG",
-      "images/patra/slide22.PNG",
-      "images/patra/slide23.PNG",
-      "images/patra/slide24.PNG",
-      "images/patra/slide25.PNG",
-      "images/patra/slide26.PNG",
-      "images/patra/slide27.PNG",
-      "images/patra/slide28.PNG",
-      "images/patra/slide29.PNG",
-      "images/patra/slide30.PNG",
-      "images/patra/slide31.PNG",
-      "images/patra/slide32.PNG",
-      "images/patra/slide33.PNG",
-      "images/patra/slide34.PNG",
-      "images/patra/slide35.PNG",
-      "images/patra/slide36.PNG",
-      "images/patra/slide37.PNG",
-      "images/patra/slide38.PNG",
-      "images/patra/slide39.PNG",
-      "images/patra/slide40.PNG",
-      "images/patra/slide41.PNG"
+      "images/patra/slide8.PNG"  
     ]
   },
   {
@@ -54,11 +21,14 @@
     "id": "mary",
     "type": "honeystrap",
     "images": [
-      "images/mary/1.png",
-      "images/mary/2.png",
-      "images/mary/3.png",
-      "images/mary/4.png",
-      "images/mary/5.png"
+      "images/mary/slide1.PNG",
+      "images/mary/slide2.PNG",
+      "images/mary/slide3.PNG",
+      "images/mary/slide4.PNG",
+      "images/mary/slide5.PNG",
+      "images/mary/slide6.PNG",
+      "images/mary/slide7.PNG",
+      "images/mary/slide8.PNG"
     ]
   },
   {
@@ -67,11 +37,13 @@
     "id": "charlotte",
     "type": "honeystrap",
     "images": [
-      "images/sharlotte/1.png",
-      "images/sharlotte/2.png",
-      "images/sharlotte/3.png",
-      "images/sharlotte/4.png",
-      "images/sharlotte/5.png"
+      "images/sharlotte/slide1.PNG",
+      "images/sharlotte/slide2.PNG",
+      "images/sharlotte/slide3.PNG",
+      "images/sharlotte/slide4.PNG",
+      "images/sharlotte/slide5.PNG",
+      "images/sharlotte/slide6.PNG",
+      "images/sharlotte/slide7.PNG"
     ]
   },
   {
@@ -80,11 +52,14 @@
     "id": "mico",
     "type": "honeystrap",
     "images": [
-      "images/mico/1.png",
-      "images/mico/2.png",
-      "images/mico/3.png",
-      "images/mico/4.png",
-      "images/mico/5.png"
+      "images/mico/slide1.PNG",
+      "images/mico/slide2.PNG",
+      "images/mico/slide3.PNG",
+      "images/mico/slide4.PNG",
+      "images/mico/slide5.PNG",
+      "images/mico/slide6.PNG",
+      "images/mico/slide7.PNG",
+      "images/mico/slide8.PNG"
     ]
   }
 ]
