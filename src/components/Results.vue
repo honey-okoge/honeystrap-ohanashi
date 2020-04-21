@@ -11,11 +11,9 @@
       長押しや右クリックで画像を保存してお楽しみください。
       </p>
       <p>
-        <!--
         <button @click="open" class="btn btn-default">
           保存できないので画像だけを表示してみる
         </button>
-        -->
       </p>
       <p>
         <!--
