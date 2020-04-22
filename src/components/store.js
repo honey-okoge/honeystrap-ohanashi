@@ -56,8 +56,30 @@ class Store extends EventEmitter {
   }
 
   // 更新のみ
-  updateParagraph() {
+  updateParagraphs() {
     this.emit('paragraphs-updated', clone(this.data.paragraphs));
+  }
+
+  // LocalStrage保存
+  saveParagraphs() {
+    this.emit('paragraphs-updated', clone(this.data.paragraphs));
+    localStorage.setItem("honeystrap-ohanashi", JSON.stringify(this.data.paragraphs));
+    console.log(JSON.parse(localStorage.getItem("honeystrap-ohanashi")));
+    alert("ブラウザに保存しました。");
+  }
+
+  // 保存データの読み込み
+  loadParagraphs() {
+    console.log(localStorage.getItem("honeystrap-ohanashi"));
+    let paragraphs = localStorage.getItem("honeystrap-ohanashi");
+    if (paragraphs != null) {
+      this.data.paragraphs = JSON.parse(paragraphs);
+      this.emit('paragraphs-updated', clone(this.data.paragraphs));
+      alert("読み込みが完了しました。");
+    } else {
+      alert("データがありません。");
+    }
+
   }
 
 }

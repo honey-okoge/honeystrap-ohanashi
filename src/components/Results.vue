@@ -16,6 +16,17 @@
         </button>
       </p>
       <p>
+        <button @click="load" class="btn btn-default">
+          前回保存データを読み込む。
+        </button>
+      </p>
+      <p>
+        <button @click="save" class="btn btn-default">
+          編集途中のデータを保存する。
+        </button>
+        ※ブラウザに保存するため、なんやかんやすると消える可能性があります。
+      </p>
+      <p>
         <!--
         <a href="https://twitter.com/intent/tweet?button_hashtag=ハニストおはなし&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #ハニストおはなし</a>
         -->
@@ -42,8 +53,14 @@ export default {
       event.preventDefault();
       window.open(this.$refs.canvas.getUrl());
     },
+    load() {
+      store.loadParagraphs();
+    },
+    save() {
+      store.saveParagraphs()
+    },
     changeCheckBox() {
-      store.updateParagraph();
+      store.updateParagraphs();
     },
     twitterShare(){
         //シェアする画面を設定
