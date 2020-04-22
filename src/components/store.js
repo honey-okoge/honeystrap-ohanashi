@@ -54,6 +54,12 @@ class Store extends EventEmitter {
     this.data.paragraphs.splice(i, 1);
     this.emit('paragraphs-updated', clone(this.data.paragraphs));
   }
+
+  // 更新のみ
+  updateParagraph() {
+    this.emit('paragraphs-updated', clone(this.data.paragraphs));
+  }
+
 }
 
 export default new Store();

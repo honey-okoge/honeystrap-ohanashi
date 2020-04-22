@@ -8,6 +8,7 @@
           <pre class="serifu">{{p.text}}</pre>
         </div>
       </div>
+      <p class="serifu"><textarea v-model="p.text" rows=2 cols=60></textarea></p>
       <div>
         <button class=btn type=button :disabled="index === 0"
                 @click="moveup(index)">↑
@@ -35,6 +36,10 @@ export default {
   created() {
     store.on('paragraphs-updated', (ps) => this.paragraphs = ps);
     //this.$eventHub.$on('paragraphs-updated', (ps) => this.paragraphs = ps);
+  },
+  watch: {
+    paragraphs: function() {
+    }
   },
   methods: {
     moveup(i) {

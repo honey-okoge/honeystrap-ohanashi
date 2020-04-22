@@ -1,7 +1,7 @@
 <template>
   <section>
     <h2>できあがり</h2>
-    <p><label><input type=checkbox v-model="editting">編集モード</label></p>
+    <p><label><input type=checkbox v-model="editting" v-on:change="changeCheckBox">編集モード</label></p>
     <section v-show="editting">
       <List v-show="editting"/>
     </section>
@@ -41,6 +41,9 @@ export default {
     open(event) {
       event.preventDefault();
       window.open(this.$refs.canvas.getUrl());
+    },
+    changeCheckBox() {
+      store.updateParagraph();
     },
     twitterShare(){
         //シェアする画面を設定
